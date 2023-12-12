@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/list.css" />
+    <title>Каталог</title>
+  </head>
+  <body>
+    
+    <header class="header">
+      <div class="header-MAROON">
+        <img src="img/MAROON.svg" alt="MAROON" />
+      </div>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <nav class="group-right menu__box">
+        <div class="header-catalog menu__item">
+          <a href="list.html">Каталог</a>
+        </div>
+        <div class="header-about menu__item"><a href="main.html">О нас</a></div>
+        <div class="header-contacts menu__item">
+          <a href="main.html">Контакты</a>
+        </div>
+        <div class="header-group menu__item">
+          <div>
+            <img class="header-profile" src="img/profile.svg" alt="profile" />
+          </div>
+          <div>
+            <img class="header-basket" src="img/backet.svg" alt="basket" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="top-cat">
+      <h1 class="main-title1">Каталог</h1>
+      <div class="box-1">
+        <div class="btn btn-one" onclick="toggleFilter()">
+          <span>Фильтр</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="fil-categ" id="filter-categ">
+      <div class="filter" id="filter">
+        <div class="filter-group1">
+          <h3 class="filter-title">Уход для лица</h3>
+          <div><input type="checkbox" /><label>Крема</label></div>
+          <div><input type="checkbox" /><label>Сыворотки</label></div>
+          <div><input type="checkbox" /><label>Маски</label></div>
+          <div><input type="checkbox" /><label>Пенки</label></div>
+          <div><input type="checkbox" /><label>Тоники</label></div>
+          <div><input type="checkbox" /><label>Пудры</label></div>
+        </div>
+        <div class="filter-group1">
+          <h3 class="filter-title">Уход для тела</h3>
+          <div><input type="checkbox" /><label>Крема</label></div>
+          <div><input type="checkbox" /><label>Масла</label></div>
+          <div><input type="checkbox" /><label>Скрабы</label></div>
+          <div><input type="checkbox" /><label>Мыло</label></div>
+          <div><input type="checkbox" /><label>Бомбочки</label></div>
+          <div><input type="checkbox" /><label>Соль</label></div>
+        </div>
+        <div class="filter-group1">
+          <h3 class="filter-title">Тип кожи</h3>
+          <div><input type="checkbox" /><label>Нормальная</label></div>
+          <div><input type="checkbox" /><label>Сухая</label></div>
+          <div><input type="checkbox" /><label>Жирная</label></div>
+          <div><input type="checkbox" /><label>Комбинированная</label></div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <div class="box-1">
+          <div class="btn btn-one">
+            <span>Применить</span>
+          </div>
+          <div class="btn btn-one">
+            <span>Сбросить</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="categories">
+      <a href="product.html">
+        <div class="categories-item cat1">
+          <div class="categories-description">
+            <p class="categories-title">High</p>
+            <p class="categories-subtitle">крем для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">990₽</p>
+            <p class="categories-volume">50ml</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat2">
+          <div class="categories-description">
+            <p class="categories-title">Rest</p>
+            <p class="categories-subtitle">минеральная пудра</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">690₽</p>
+            <p class="categories-volume">20g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat3">
+          <div class="categories-description">
+            <p class="categories-title">Rose</p>
+            <p class="categories-subtitle">крем для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">890₽</p>
+            <p class="categories-volume">50ml</p>
+          </div>
+        </div> 
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat4">
+          <div class="categories-description">
+            <p class="categories-title">Milk</p>
+            <p class="categories-subtitle">масло для тела</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">790₽</p>
+            <p class="categories-volume">150ml</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <section class="categories">
+      <a href="product.html">
+        <div class="categories-item cat5">
+          <div class="categories-description">
+            <p class="categories-title">Clean</p>
+            <p class="categories-subtitle">маска для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">490₽</p>
+            <p class="categories-volume">100g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat6">
+          <div class="categories-description">
+            <p class="categories-title">Violet</p>
+            <p class="categories-subtitle">крем для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">890₽</p>
+            <p class="categories-volume">50ml</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat7">
+          <div class="categories-description">
+            <p class="categories-title">Sun</p>
+            <p class="categories-subtitle">бомбочка для ванны</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">90₽</p>
+            <p class="categories-volume">20g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat8">
+          <div class="categories-description">
+            <p class="categories-title">Paradise</p>
+            <p class="categories-subtitle">минеральная пудра</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">590₽</p>
+            <p class="categories-volume">15g</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <section class="categories">
+      <a href="product.html">
+        <div class="categories-item cat9">
+          <div class="categories-description">
+            <p class="categories-title">Earth</p>
+            <p class="categories-subtitle">бомбочка для ванны</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">90₽</p>
+            <p class="categories-volume">20g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat10">
+          <div class="categories-description">
+            <p class="categories-title">Lotos</p>
+            <p class="categories-subtitle">маска для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">890₽</p>
+            <p class="categories-volume">50ml</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat11">
+          <div class="categories-description">
+            <p class="categories-title">Lavender</p>
+            <p class="categories-subtitle">мыло ручной работы</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">290₽</p>
+            <p class="categories-volume">50g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat12">
+          <div class="categories-description">
+            <p class="categories-title">Coconut</p>
+            <p class="categories-subtitle">масло для тела</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">990₽</p>
+            <p class="categories-volume">300ml</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <div class="bottom-things">
+      <div></div>
+      <div class="pages">
+        <span class="darker"> 1 </span> -
+        <span> 8 </span>
+      </div>
+      <div class="arrows">
+        <img class="arrow-reverse" src="img/arrow.svg" alt="-" /><img class="arrow" src="img/arrow.svg" alt="-"/>
+      </div>
+    </div>
+    <h3 class="main-title">Вы недавно смотрели</h3>
+
+    <section class="categories">
+      <a href="product.html">
+        <div class="categories-item cat13">
+          <div class="categories-description">
+            <p class="categories-title">Clean</p>
+            <p class="categories-subtitle">крем для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">490₽</p>
+            <p class="categories-volume">100g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat14">
+          <div class="categories-description">
+            <p class="categories-title">Lotos</p>
+            <p class="categories-subtitle">маска для лица</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">890₽</p>
+            <p class="categories-volume">50ml</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat15">
+          <div class="categories-description">
+            <p class="categories-title">Lavender</p>
+            <p class="categories-subtitle">мыло ручной работы</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">290₽</p>
+            <p class="categories-volume">50g</p>
+          </div>
+        </div>
+      </a>
+      <a href="product.html">
+        <div class="categories-item cat16">
+          <div class="categories-description">
+            <p class="categories-title">Coconut</p>
+            <p class="categories-subtitle">масло для тела</p>
+          </div>
+          <div class="categories-numbers">
+            <p class="categories-price">990₽</p>
+            <p class="categories-volume">300ml</p>
+          </div>
+        </div>
+      </a>
+    </section>
+
+    <div class="bottom-things">
+      <div></div>
+      <div class="pages">
+        <span class="darker"> 1 </span> -
+        <span> 3 </span>
+      </div>
+      <div class="arrows">
+        <img class="arrow-reverse" src="img/arrow.svg" alt="-" /><img class="arrow" src="img/arrow.svg" alt="-"/>
+      </div>
+    </div>
+
+    <section class="sec3">
+      <div class="grid">
+        <div><img src="img/crem1.png" alt="crem1" /></div>
+        <div><img src="img/water1.png" alt="wat1" /></div>
+        <div><img src="img/girl.png" alt="girl" /></div>
+        <div><img src="img/bottles.png" alt="bottl" /></div>
+        <div><img class="hide" src="img/crem2.png" alt="crem2" /></div>
+        <div><img class="hide" src="img/water.png" alt="wat" /></div>
+      </div>
+      <div class="sec3-text">
+        <h3 class="sec3-name">Присоединяйтесь к нам</h3>
+        <p class="sec3-desc">Подпишитесь на наш аккаунт @marooncare и узнавайте о новиках и акциях первыми</p>
+        <a href="page404.html">
+          <div class="sec1-button">
+            <div class="box-1">
+              <div class="btn btn-one">
+                <span>Подписаться</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section class="banner2" id="bottom">
+      <div class="bottlesback">
+        <h3 class="bot-name">Контакты</h3>
+        <div class="bot-desc">
+          <h4 class="subtitle">Адрес</h4>
+          <p class="subtext">Санкт-Петербург, ул. Большая Конюшенная, 19</p>
+          <h4 class="subtitle">Телефон</h4>
+          <p class="subtext">+7 (923) 888-90-60</p>
+          <h4 class="subtitle">E-mail</h4>
+          <p class="subtext">info@maroon.ru</p>
+          <div class="float-foot">
+            <a href=""><img src="img/f.svg" class="f" alt="" /></a>
+            <a href=""><img src="img/inst.svg" alt="" /></a>
+            <a href=""><img src="img/twitter.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="bot-img"><img src="img/map.png" alt="bottles" /></div>
+    </section>
+
+    <footer class="footer">
+      <div class="foot-flex">
+        <div class="nav grid-footer">
+          <div><img src="img/MAROON.svg" alt="maroon" /></div>
+          <div></div>
+          <div><a href="list.html">Каталог</a></div>
+          <div><a href="list.html">О нас</a></div>
+          <div><a href="list.html">Магазины</a></div>
+          <div><a href="list.html">Контакты</a></div>
+        </div>
+        <div class="float-foot">
+          <a href=""><img src="img/f.svg" alt="" /></a>
+          <a href=""><img src="img/inst.svg" alt="" /></a>
+          <a href=""><img src="img/twitter.svg" alt="" /></a>
+        </div>
+      </div>
+      <hr />
+      <div class="low">
+        <div class="foot-info">
+          <div>Maroon</div>
+          <div><img src="img/c.svg" alt="c" /></div>
+          <div>Все права защищены</div>
+        </div>
+        <div class="polit">Политика конфиденциальности</div>
+      </div>
+    </footer>
+    
+    <script src="js/filter.js"></script>
+  </body>
+</html>
